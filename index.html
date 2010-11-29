@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Spindown Example</title>		
+			<link href="css/basic.css" type="text/css" rel="stylesheet" />
+			<script type="text/javascript" src="http://filamentgroup.github.com/EnhanceJS/enhance.js"></script>		
+			<script type="text/javascript">
+				// Run capabilities test
+				enhance({
+					loadScripts: [
+						'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js',
+						'js/jQuery.collapsible.js',
+						'js/example.js'
+					],
+					loadStyles: ['css/enhanced.css']	
+				});   
+		    </script>
+	</head>
+	<body>	
+	
+		<div id="message">
+			<h1>Upload: 2 issues</h1>
+			<p>The rest of your photos were uploaded successfully but 2 photos were not uploaded because they are not a supported format.</p>
+			<h2>Details</h2>
+			<ul>
+				<li><span class="file">purple-flower.tif</span> <em>Not a supported file format</em></li>
+				<li><span class="file">flower-photos.zip</span> <em>Not a supported file format</em></li>
+			</ul>
+		</div>
+
+	</body>
+</html>
