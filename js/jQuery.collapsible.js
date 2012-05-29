@@ -6,7 +6,10 @@
  * licensed under MIT (filamentgroup.com/examples/mit-license.txt)
  * --------------------------------------------------------------------
  */
-$.fn.collapsible = function(collapse = true){
+$.fn.collapsible = function(collapse){
+	if (collapse == undefined)
+		collapse = true;
+
 	return $(this).each(function(){
 
 		//define
